@@ -1,10 +1,9 @@
 
 body {
     font-family: 'Hepta Slab', serif;
-    font-size: 24px;
-    line-height: 32px;
-    color: #999;
-    background-color: #999;
+    font-size: 18px;
+    color: #777;
+    background-color: #777;
     text-align: center;
 }
 
@@ -21,36 +20,41 @@ body {
 
 /* the below class includes header, nav and footer sections. */
 .notContent {
-    background-color: #eee;
-    margin-bottom: 10px;
-    padding: 10px;
-}
-
-.footer {
-    clear: both;
-
+    background-color: #ebebeb;
+    margin-bottom: 20px;
+    padding: 5px;
 }
 
 /* the below classes includes the section, article, heading, and paragraph sections */
 
 .contentSection {
-    width: 73%;
+    background-color: #ebebeb; 
     float: left;
+    width: 73%;
+    text-align: center;
 }
 
-.sectionBox {
-    background-color: #eee;
-    height: 200px;
+.section {
+    padding-bottom: 10px;
 }
 
 .articleBox {
-    background-color: #999;
-    color: #eee;
+    background-color: #777;
+    color: #ebebeb;
+    width: 90%;
+    margin: auto;
 }
 
-.headingsBox, 
-.paraBox {
-    background-color: #eee;
+.miniBoxes {
+    background-color: #ebebeb;
+    color: #777;
+    width: 90%;
+    margin: auto;
+}
+
+.miniHeading {
+    margin: 10px;
+
 }
 
 /* the below classes include the aside  */
@@ -59,6 +63,9 @@ body {
     background-color: #eee;
     float: left;
     width: 25%;
-    margin: 32px 0 5px 10px;
-    height: 200px;
+    margin-left: 16px;
+}
+
+.footer {
+    clear: both;
 }
